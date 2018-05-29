@@ -1,0 +1,32 @@
+{
+  "name": "media-scrapper",
+  "version": "1.0.0",
+  "description": "A Simple Media Scrapper for home use",
+  "main": "app.js",
+  "scripts": {
+    "start": "node starter.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaptorCentauri/media-scrapper.git"
+  },
+  "author": "Dave Shilander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaptorCentauri/media-scrapper/issues"
+  },
+  "homepage": "https://github.com/RaptorCentauri/media-scrapper#readme",
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "cheerio": "^1.0.0-rc.2",
+    "fs-extra": "^6.0.1",
+    "imdb-api": "^3.1.2",
+    "request": "^2.87.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
